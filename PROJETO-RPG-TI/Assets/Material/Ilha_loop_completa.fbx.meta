@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 68eb3991475f31f43a00f4d0c54fe188
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BODY
+    second: {fileID: 2100000, guid: e27471e377563b94d9e46af6b01832fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box
+    second: {fileID: 2100000, guid: 533fb8d63c0fc1e4f8ea9d28fd4eb10e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CUBO_SALVADOR
+    second: {fileID: 2100000, guid: 3072153244cb9e646b1d4d90e72e0328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dustbin
+    second: {fileID: 2100000, guid: 92b096a43e824754aa7ac73e462ce3b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior loja
+    second: {fileID: 2100000, guid: a398f2c619577c54c917d9a34a935449, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire Hydrant
+    second: {fileID: 2100000, guid: 14e288aecdc3f784cb52e59b165a3fbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hover DMC
+    second: {fileID: 2100000, guid: ccbf991efd26e5f42974f25f81937414, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Letreiro
+    second: {fileID: 2100000, guid: 2ebc5f49d35382d4eb6902fd0736d11a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL
+    second: {fileID: 2100000, guid: 54472218edd09f3469a94b59adbcb8f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: a14fecc11c5d2cf41aaa37eef45021bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 4433afdaa8c1b7f4287666d9d4d41124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: b94648269968e6040a22251528eaeb94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 4d1adf4d482735c4e8527433c54b5c65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 28dc9c33ef076c742833901357e82d4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 9e70bcbd503bd0e458944346733a82cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: f5bd494d14480714d87c01bddcf8d630, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: fddc14d767e9b50478380440e490df4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 7d295a321f7e8944d9bb86fe420f785b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 85dcb4dfa5a8d06439d554721455b9b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 97d30a1886e4d9f4ca4eb1959f702477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: 83841f1883074bc45a58c27857a14639, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: b1f1c1fa2bf309c4b986037f044a401c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: 2f0fa646fc2090d4e8740a81487387d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.023
+    second: {fileID: 2100000, guid: d685caf68c2f3304c96d270e013aeb91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: REFLECTOR
+    second: {fileID: 2100000, guid: d54e46179112e9c41a71ce72c73cc228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Street Light
+    second: {fileID: 2100000, guid: 2e50bfb15ba492345a6102124a6abf6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 94e5ec91875db104a9a51d8c6c408cad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arena
+    second: {fileID: 2100000, guid: 187497de1d02d224bb11a9f287f36cbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asfalto
+    second: {fileID: 2100000, guid: 645e177760d3aa54b9f647e5c8289a59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: 829becdb015d50948b85a3eef08a4595, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: branco_scene
+    second: {fileID: 2100000, guid: d26036a606e139b4cba497f5f1d9a6ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: caixa_grade_predioazul
+    second: {fileID: 2100000, guid: 54946362f740d774694064309a78a7a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coracao_outdoor
+    second: {fileID: 2100000, guid: f8e21c7d52865d74ba3ff096f1bb48ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: escadas_arena
+    second: {fileID: 2100000, guid: 3060ce8ff2be15c4f8c1cf4b57d505ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: exterior
+    second: {fileID: 2100000, guid: 886468a40107e7649ab5bf33abb15a9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: exterior_predioroxo
+    second: {fileID: 2100000, guid: 0a9d4183f655c8641ae546683d57c4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: faixa_escura
+    second: {fileID: 2100000, guid: 1773b9fcde2fd74418f5e20bc94f4e7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: faixa_pedestre
+    second: {fileID: 2100000, guid: 7aa96adda93c3b942ab78b31ff46ea59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: faixas arena
+    second: {fileID: 2100000, guid: 8adbad40069eb9345b21997f0ae5996b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fios_scene
+    second: {fileID: 2100000, guid: b05a701175b8d954a84a161967b4a75e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 53b9ee1bc1838704384100bbea2398d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grade_predioazul_scene
+    second: {fileID: 2100000, guid: c0f36bbd68348044fa54143d7098d4ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grade_predioroxo
+    second: {fileID: 2100000, guid: 0655ae722aa28e745a30773f7519df45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helice
+    second: {fileID: 2100000, guid: 8f094e56b54cb7b43ac31668dfe0ebb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior
+    second: {fileID: 2100000, guid: be1da8721a775e747a967f482d6ed83a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: janela 01
+    second: {fileID: 2100000, guid: fc8ec92e6ea5f404290a3bcda7f043ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: janela_predioazul_scene
+    second: {fileID: 2100000, guid: a5c1b3f67e925f94794134ef18fa7c94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: janelas esquerda
+    second: {fileID: 2100000, guid: 49b0da19284fc424fb23becb197a7882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: janelas_predioroxo
+    second: {fileID: 2100000, guid: 46b941ceaed04664ab2c2ee45bcca686, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampadas_predioroxo
+    second: {fileID: 2100000, guid: fd391c4aa3f832046a952c01417f3bee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: listras_estrada
+    second: {fileID: 2100000, guid: 0e303320e8cae114eb4f661702284386, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loja exterior
+    second: {fileID: 2100000, guid: 5d5218dc51431a74e954b33ade0fc599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ma\xE7aneta"
+    second: {fileID: 2100000, guid: a381f69a7900196458afed6af06b6810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: b002a524daa33604db29730e143e6860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal.001
+    second: {fileID: 2100000, guid: 66b3178029cddf94a9b77a1e789bfc32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outdoors
+    second: {fileID: 2100000, guid: 4e48d6a5de89e27458e4801b76c21ca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outdoors01
+    second: {fileID: 2100000, guid: 5d7a273a7a552cf4d8f38cff0e327ac7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: parte_de_dentro
+    second: {fileID: 2100000, guid: 98a694739566b054daf759134cbdfbf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: parteescura_porta
+    second: {fileID: 2100000, guid: 284dea15dd454ff46825d4f5d60e1aa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: partefrontal_predioroxo
+    second: {fileID: 2100000, guid: d428921294309e5489eb07eb0e225de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: persiana vermelha
+    second: {fileID: 2100000, guid: eae6e006db674684c9fdb6e47ae1104a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: persianas
+    second: {fileID: 2100000, guid: 926e74ca92358334485679a47ea68776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: persianas branca
+    second: {fileID: 2100000, guid: 9330e2b82aa303f44bf99e144dbd11c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: placa
+    second: {fileID: 2100000, guid: 03dd965c6fe7bd04a80d2e99ff75e992, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: placa_01_outdoor
+    second: {fileID: 2100000, guid: f37c89d3495b5104c8ae6df089586ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: placa_02_outdoor
+    second: {fileID: 2100000, guid: 25695e2f54d62dd42b1bb32878d7b908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: porta01
+    second: {fileID: 2100000, guid: 738dde21fef6120428771b8ac97b1443, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: porta_predioazul_scene
+    second: {fileID: 2100000, guid: fae35f97541d0064db9d045e8e9376e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: porta_predioroxo
+    second: {fileID: 2100000, guid: 2f334b6a3d0cdb14785ec52bfb93b5a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: portas e janelas
+    second: {fileID: 2100000, guid: 44d79c2037199bb4eb460df462b8b85e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: predio_azul_scene
+    second: {fileID: 2100000, guid: 1e149e20293fe094f9cf7a0ecce609f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: quina_loja
+    second: {fileID: 2100000, guid: ff35cd31a58cfda4bb49721d4881ce5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: quite
+    second: {fileID: 2100000, guid: 0cc9536a5d5f6a142b607117b7407d51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rua_centro
+    second: {fileID: 2100000, guid: f69e269e7a7477345bbfe4684ea59118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rua_interior
+    second: {fileID: 2100000, guid: 63c53e6afcd285c4f92f8c45705fef6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rua_scene
+    second: {fileID: 2100000, guid: c0fb70d7b7480bd4184b253c15674faa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seta
+    second: {fileID: 2100000, guid: eaf60dafd02fe16409eac2b9d8380b2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sombras
+    second: {fileID: 2100000, guid: aa50f3bd654bb7843952aebcb1d11a2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tabuas
+    second: {fileID: 2100000, guid: e257f0eeb2f387e42bc1da8252fc3ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tomclaro_obelisco
+    second: {fileID: 2100000, guid: bc7ca6295fb36e14fb44d66895b94024, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tonsclaros_predioazul_scene.001
+    second: {fileID: 2100000, guid: f4641302d6da22b4da8e2c73d92a122e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tonsescuros_predioazul_scene
+    second: {fileID: 2100000, guid: 83d372d98eceebc45a7037398a28379a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tonsescuros_predioroxo
+    second: {fileID: 2100000, guid: fbc4f26bafffbb8479a6e174585f8a92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top
+    second: {fileID: 2100000, guid: ca21bfddad26c1c47bfa96152d0d0ea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top e floor
+    second: {fileID: 2100000, guid: 38be9b58215db2e479ed4dd5f38f0d9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top.001
+    second: {fileID: 2100000, guid: 01958b0c62a291d4f9f73e9432d6084d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top.002
+    second: {fileID: 2100000, guid: bfa126225fdda494c9ea7d3d4aa893a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_base
+    second: {fileID: 2100000, guid: a2f193b0b79451d4a8b96fe8d77d2d92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_island
+    second: {fileID: 2100000, guid: c896af190b7bc6041a0e7e947425e566, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_predioazul_scene
+    second: {fileID: 2100000, guid: ca4bf62d00de9a44399edd9872ca1e56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "tubula\xE7oes"
+    second: {fileID: 2100000, guid: 3d54ef9baed297d44a17f941162d0be5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: 526e33a45701d094397b62cee777edf1, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
