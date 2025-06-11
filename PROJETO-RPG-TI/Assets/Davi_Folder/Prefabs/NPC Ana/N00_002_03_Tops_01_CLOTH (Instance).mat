@@ -24,11 +24,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: N00_002_03_Tops_01_CLOTH (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: 631d0d89abd0c3d4f9a21430026902b7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: c504c073d7911a04ebb6785675b8c0e8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
+  - _LIGHT_COLOR
+  - _MAIN_LIGHT_SHADOWS
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
@@ -135,6 +137,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ThicknessMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -226,7 +232,11 @@ Material:
     - _Ior: 1.5
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
+    - _LIGHT_COLOR: 1
+    - _Light_Expesure_Weight: 1
+    - _Light_Intensity: 1
     - _LinkDetailsWithBase: 1
+    - _MAIN_LIGHT_SHADOWS: 1
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _Metallic: 0
@@ -254,6 +264,8 @@ Material:
     - _RequireSplitLighting: 0
     - _RimSmoothness: 0.1
     - _RimThreshold: 0.5
+    - _Shadow_Intensity: 0.5
+    - _Smoothnes: 0.5
     - _Smoothness: 0
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -305,6 +317,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Base_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Cutoff_Thresholds: {r: 0, g: 10000, b: 0, a: 0}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -319,5 +332,6 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
