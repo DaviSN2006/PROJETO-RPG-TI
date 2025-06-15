@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OutdoorsScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
+  - enabled: 1
+    path: Assets/Scenes/IlhaLoop.unity
+    guid: 180b410fb1f430943bb836d605d61556
+  - enabled: 1
+    path: Assets/Scenes/Fase/Fase 1.unity
+    guid: b0185b8b62da4e84aa4764e746e86d78
+  - enabled: 1
+    path: Assets/Scenes/Fase/Fase 2.unity
+    guid: c6e51adf20b05a2469fce6bae3af318e
+  - enabled: 1
+    path: Assets/Scenes/Fase/Fase 3.unity
+    guid: 2258317d122160c4a9cebd76304b30af
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
