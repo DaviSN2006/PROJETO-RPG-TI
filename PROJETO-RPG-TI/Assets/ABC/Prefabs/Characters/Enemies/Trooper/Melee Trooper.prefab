@@ -261,7 +261,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Melee Trooper
+  m_Text: Tropa 1
 --- !u!114 &373243720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &998460859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13763,7 +13763,7 @@ MonoBehaviour:
   ManaGUIList: []
   IconUIs: []
   toolbarControllerManagerSelection: 4
-  toolbarControllerManagerGeneralSettingsSelection: 2
+  toolbarControllerManagerGeneralSettingsSelection: 3
   toolbarControllerManagerTargetSettingsSelection: 0
   toolbarControllerManagerAISettingsSelection: 2
   toolbarControllerManagerAbilityGroupSettingsSelection: 0
@@ -14245,7 +14245,7 @@ MonoBehaviour:
   - tagBefore: 'Friendly '
     tagAfter: Enemy
   toolbarStateManagerSelection: 0
-  toolbarStateManagerGeneralSettingsSelection: 1
+  toolbarStateManagerGeneralSettingsSelection: 0
   toolbarStateManagerEffectWatcherSettingsSelection: 0
   showHelpInformation: 1
   updateEditorAtRunTime: 0
@@ -14560,7 +14560,7 @@ MonoBehaviour:
   blockSurroundingObjectStatus: 0
   ignoreAbilityCollision: 0
   effectProtection: 0
-  foldOutIntegration: 0
+  foldOutIntegration: 1
   editorRecordActiveEffectHistory: 0
   editorActiveEffectHistory: []
 --- !u!195 &751276789
