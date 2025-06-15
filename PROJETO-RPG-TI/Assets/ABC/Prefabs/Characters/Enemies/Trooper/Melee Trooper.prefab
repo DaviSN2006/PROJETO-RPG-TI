@@ -4543,7 +4543,7 @@ MonoBehaviour:
   _currentWeapons: []
   AbilityGroups: []
   Abilities:
-  - globalAbilities: {fileID: 11400000, guid: 1d5c3f81b95280c40b7b34200394b1a8, type: 2}
+  - globalAbilities: {fileID: 11400000, guid: 2f681995c0fd1e74da423d57647ffb5d, type: 2}
     globalElementSource: {fileID: 0}
     globalAbilitiesEnableGameTypeModification: 1
     globalAbilitiesGameTypeModification: 5
@@ -13760,6 +13760,141 @@ MonoBehaviour:
     AIAreaActivationLimitTags: []
     AIFacingTarget: 1
     AIActive: 1
+  - RuleName: Sword Attack
+    AIRuleLastActivationTime: 0
+    selectedAIAction: 0
+    AIAbilityID: 11655204
+    AIAbilityListChoice: 4
+    AIActivateAbilityGroupIDs: 
+    AIActivateGroupListChoice: 0
+    AIWeaponID: 1022291
+    AIWeaponListChoice: 0
+    AIBlockDurationMin: 10
+    AIBlockDurationMax: 11653984
+    AIEnableRuleCooldown: 1
+    AIRuleCooldownMinValue: 5
+    AIRuleCooldownMaxValue: 15
+    AIRuleCurrentCooldown: 0
+    probabilityMinValue: 20
+    probabilityMaxValue: 100
+    AITargets: []
+    AITags:
+    - Target
+    - TargetPriority
+    AIAbilityTarget: 0
+    AINearestTargets: []
+    AINearestTags: []
+    castWithoutConditions: 0
+    activateWithoutTarget: 0
+    bypassTargetLimitations: 0
+    AIRangeMin: 0
+    AIRangeMax: 6
+    updateTarget: 1
+    ignoreCaster: 1
+    stateEffectConditions: []
+    stateEffectAbsentConditions: []
+    AIHP: 0
+    AIHealthGreaterThan: 0
+    AIHealthLessThan: 100
+    AIMP: 0
+    AIManaGreaterThan: 0
+    AIManaLessThan: 100
+    AIAreaActivationLimit: 0
+    AIAreaActivationLimitRange: 11653984
+    AIAreaActivationLimitMax: 2
+    AIAreaActivationLimitTags: []
+    AIFacingTarget: 1
+    AIActive: 1
+  - RuleName: Flaming Upper Slash
+    AIRuleLastActivationTime: 0
+    selectedAIAction: 0
+    AIAbilityID: 11705697
+    AIAbilityListChoice: 0
+    AIActivateAbilityGroupIDs: 
+    AIActivateGroupListChoice: 0
+    AIWeaponID: -1
+    AIWeaponListChoice: 0
+    AIBlockDurationMin: 10
+    AIBlockDurationMax: 20
+    AIEnableRuleCooldown: 1
+    AIRuleCooldownMinValue: 30
+    AIRuleCooldownMaxValue: 90
+    AIRuleCurrentCooldown: 0
+    probabilityMinValue: 0
+    probabilityMaxValue: 30
+    AITargets: []
+    AITags:
+    - Target
+    - TargetPriority
+    AIAbilityTarget: 0
+    AINearestTargets: []
+    AINearestTags: []
+    castWithoutConditions: 0
+    activateWithoutTarget: 0
+    bypassTargetLimitations: 0
+    AIRangeMin: 0
+    AIRangeMax: 5
+    updateTarget: 0
+    ignoreCaster: 1
+    stateEffectConditions: []
+    stateEffectAbsentConditions: []
+    AIHP: 0
+    AIHealthGreaterThan: 0
+    AIHealthLessThan: 100
+    AIMP: 0
+    AIManaGreaterThan: 0
+    AIManaLessThan: 100
+    AIAreaActivationLimit: 0
+    AIAreaActivationLimitRange: 20
+    AIAreaActivationLimitMax: 2
+    AIAreaActivationLimitTags: []
+    AIFacingTarget: 1
+    AIActive: 1
+  - RuleName: Summon Fury
+    AIRuleLastActivationTime: 0
+    selectedAIAction: 0
+    AIAbilityID: 1184174
+    AIAbilityListChoice: 0
+    AIActivateAbilityGroupIDs: 
+    AIActivateGroupListChoice: 0
+    AIWeaponID: -1
+    AIWeaponListChoice: 0
+    AIBlockDurationMin: 10
+    AIBlockDurationMax: 20
+    AIEnableRuleCooldown: 1
+    AIRuleCooldownMinValue: 30
+    AIRuleCooldownMaxValue: 90
+    AIRuleCurrentCooldown: 0
+    probabilityMinValue: 0
+    probabilityMaxValue: 35
+    AITargets: []
+    AITags:
+    - Target
+    - TargetPriority
+    AIAbilityTarget: 0
+    AINearestTargets: []
+    AINearestTags: []
+    castWithoutConditions: 0
+    activateWithoutTarget: 0
+    bypassTargetLimitations: 0
+    AIRangeMin: 0
+    AIRangeMax: 20
+    updateTarget: 0
+    ignoreCaster: 1
+    stateEffectConditions: []
+    stateEffectAbsentConditions: []
+    AIHP: 0
+    AIHealthGreaterThan: 0
+    AIHealthLessThan: 100
+    AIMP: 0
+    AIManaGreaterThan: 0
+    AIManaLessThan: 100
+    AIAreaActivationLimit: 0
+    AIAreaActivationLimitRange: 20
+    AIAreaActivationLimitMax: 2
+    AIAreaActivationLimitTags: []
+    AIFacingTarget: 1
+    AIActive: 1
   ManaGUIList: []
   IconUIs: []
   toolbarControllerManagerSelection: 4
@@ -14245,7 +14380,7 @@ MonoBehaviour:
   - tagBefore: 'Friendly '
     tagAfter: Enemy
   toolbarStateManagerSelection: 0
-  toolbarStateManagerGeneralSettingsSelection: 0
+  toolbarStateManagerGeneralSettingsSelection: 1
   toolbarStateManagerEffectWatcherSettingsSelection: 0
   showHelpInformation: 1
   updateEditorAtRunTime: 0
@@ -14446,11 +14581,11 @@ MonoBehaviour:
     refName: 
     refUpdateDateTime: 20/09/2020 19:07:07
   imageOnHealthReductionDuration: 0.3
-  maxHealth: 120
-  healthABC: 120
+  maxHealth: 80
+  healthABC: 80
   healthIntergrationType: 0
   gcHealthID: health
-  healthRegenPerSecond: 1
+  healthRegenPerSecond: 2
   fullHealthOnEnable: 1
   swapModelOnZeroHealth: 0
   swapModelToDisable:

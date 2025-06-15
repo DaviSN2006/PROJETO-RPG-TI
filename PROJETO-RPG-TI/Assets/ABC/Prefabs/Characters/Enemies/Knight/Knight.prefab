@@ -1688,7 +1688,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &1942614046622673615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3055,10 +3055,10 @@ MonoBehaviour:
   _currentWeapons: []
   AbilityGroups: []
   Abilities:
-  - globalAbilities: {fileID: 11400000, guid: e194bef9bde90f04ea53b48ea77d1223, type: 2}
+  - globalAbilities: {fileID: 11400000, guid: 8fd4f9fcfb7a9da44bb3afb1145cdaae, type: 2}
     globalElementSource: {fileID: 0}
     globalAbilitiesEnableGameTypeModification: 1
-    globalAbilitiesGameTypeModification: 0
+    globalAbilitiesGameTypeModification: 5
     name: 
     abilityID: -1
     autoCast: 0
@@ -3102,7 +3102,7 @@ MonoBehaviour:
     manaCost: 0
     statCost: 0
     statCostIntegrationType: 0
-    statCostName: Stamina
+    statCostName: stamina
     reduceManaWhenActive: 0
     enableExport: 0
     enableImport: 1
@@ -3113,7 +3113,7 @@ MonoBehaviour:
     neverResetOtherCombos: 0
     comboHitRequired: 0
     LandOrAir: 0
-    airAbilityDistanceFromGround: 4
+    airAbilityDistanceFromGround: 2
     neverSleep: 0
     isKinematic: 0
     mass: 1
@@ -12227,12 +12227,192 @@ MonoBehaviour:
     AIAreaActivationLimitTags: []
     AIFacingTarget: 0
     AIActive: 1
+  - RuleName: GS Attack
+    AIRuleLastActivationTime: 0
+    selectedAIAction: 0
+    AIAbilityID: 111010967
+    AIAbilityListChoice: 5
+    AIActivateAbilityGroupIDs: 
+    AIActivateGroupListChoice: 0
+    AIWeaponID: 111010919
+    AIWeaponListChoice: 0
+    AIBlockDurationMin: 10
+    AIBlockDurationMax: 11653984
+    AIEnableRuleCooldown: 1
+    AIRuleCooldownMinValue: 5
+    AIRuleCooldownMaxValue: 15
+    AIRuleCurrentCooldown: 0
+    probabilityMinValue: 20
+    probabilityMaxValue: 100
+    AITargets: []
+    AITags:
+    - Target
+    - TargetPriority
+    AIAbilityTarget: 0
+    AINearestTargets: []
+    AINearestTags: []
+    castWithoutConditions: 0
+    activateWithoutTarget: 0
+    bypassTargetLimitations: 0
+    AIRangeMin: 0
+    AIRangeMax: 6
+    updateTarget: 1
+    ignoreCaster: 1
+    stateEffectConditions: []
+    stateEffectAbsentConditions: []
+    AIHP: 0
+    AIHealthGreaterThan: 0
+    AIHealthLessThan: 100
+    AIMP: 0
+    AIManaGreaterThan: 0
+    AIManaLessThan: 100
+    AIAreaActivationLimit: 0
+    AIAreaActivationLimitRange: 11653984
+    AIAreaActivationLimitMax: 2
+    AIAreaActivationLimitTags: []
+    AIFacingTarget: 1
+    AIActive: 1
+  - RuleName: Pull
+    AIRuleLastActivationTime: 0
+    selectedAIAction: 0
+    AIAbilityID: 11843200
+    AIAbilityListChoice: 0
+    AIActivateAbilityGroupIDs: 
+    AIActivateGroupListChoice: 0
+    AIWeaponID: -1
+    AIWeaponListChoice: 0
+    AIBlockDurationMin: 10
+    AIBlockDurationMax: 20
+    AIEnableRuleCooldown: 1
+    AIRuleCooldownMinValue: 30
+    AIRuleCooldownMaxValue: 90
+    AIRuleCurrentCooldown: 0
+    probabilityMinValue: 0
+    probabilityMaxValue: 100
+    AITargets: []
+    AITags:
+    - Target
+    - TargetPriority
+    AIAbilityTarget: 0
+    AINearestTargets: []
+    AINearestTags: []
+    castWithoutConditions: 0
+    activateWithoutTarget: 0
+    bypassTargetLimitations: 0
+    AIRangeMin: 0
+    AIRangeMax: 10
+    updateTarget: 0
+    ignoreCaster: 1
+    stateEffectConditions: []
+    stateEffectAbsentConditions: []
+    AIHP: 0
+    AIHealthGreaterThan: 0
+    AIHealthLessThan: 100
+    AIMP: 0
+    AIManaGreaterThan: 0
+    AIManaLessThan: 100
+    AIAreaActivationLimit: 0
+    AIAreaActivationLimitRange: 20
+    AIAreaActivationLimitMax: 2
+    AIAreaActivationLimitTags: []
+    AIFacingTarget: 1
+    AIActive: 1
+  - RuleName: Twist Attack
+    AIRuleLastActivationTime: 0
+    selectedAIAction: 0
+    AIAbilityID: 11843151
+    AIAbilityListChoice: 1
+    AIActivateAbilityGroupIDs: 
+    AIActivateGroupListChoice: 0
+    AIWeaponID: -1
+    AIWeaponListChoice: 0
+    AIBlockDurationMin: 10
+    AIBlockDurationMax: 20
+    AIEnableRuleCooldown: 0
+    AIRuleCooldownMinValue: 20
+    AIRuleCooldownMaxValue: 60
+    AIRuleCurrentCooldown: 0
+    probabilityMinValue: 0
+    probabilityMaxValue: 100
+    AITargets: []
+    AITags:
+    - Target
+    - TargetPriority
+    AIAbilityTarget: 0
+    AINearestTargets: []
+    AINearestTags: []
+    castWithoutConditions: 1
+    activateWithoutTarget: 0
+    bypassTargetLimitations: 0
+    AIRangeMin: 0
+    AIRangeMax: 7
+    updateTarget: 0
+    ignoreCaster: 1
+    stateEffectConditions: []
+    stateEffectAbsentConditions: []
+    AIHP: 0
+    AIHealthGreaterThan: 0
+    AIHealthLessThan: 100
+    AIMP: 0
+    AIManaGreaterThan: 0
+    AIManaLessThan: 100
+    AIAreaActivationLimit: 0
+    AIAreaActivationLimitRange: 20
+    AIAreaActivationLimitMax: 2
+    AIAreaActivationLimitTags: []
+    AIFacingTarget: 1
+    AIActive: 1
+  - RuleName: Negative Aura
+    AIRuleLastActivationTime: 0
+    selectedAIAction: 0
+    AIAbilityID: 11838503
+    AIAbilityListChoice: 0
+    AIActivateAbilityGroupIDs: 
+    AIActivateGroupListChoice: 0
+    AIWeaponID: -1
+    AIWeaponListChoice: 0
+    AIBlockDurationMin: 10
+    AIBlockDurationMax: 20
+    AIEnableRuleCooldown: 1
+    AIRuleCooldownMinValue: 30
+    AIRuleCooldownMaxValue: 90
+    AIRuleCurrentCooldown: 0
+    probabilityMinValue: 0
+    probabilityMaxValue: 25
+    AITargets: []
+    AITags:
+    - Target
+    - TargetPriority
+    AIAbilityTarget: 0
+    AINearestTargets: []
+    AINearestTags: []
+    castWithoutConditions: 0
+    activateWithoutTarget: 0
+    bypassTargetLimitations: 0
+    AIRangeMin: 0
+    AIRangeMax: 5
+    updateTarget: 0
+    ignoreCaster: 1
+    stateEffectConditions: []
+    stateEffectAbsentConditions: []
+    AIHP: 0
+    AIHealthGreaterThan: 0
+    AIHealthLessThan: 100
+    AIMP: 0
+    AIManaGreaterThan: 0
+    AIManaLessThan: 100
+    AIAreaActivationLimit: 0
+    AIAreaActivationLimitRange: 20
+    AIAreaActivationLimitMax: 2
+    AIAreaActivationLimitTags: []
+    AIFacingTarget: 1
+    AIActive: 1
   ManaGUIList: []
   IconUIs: []
-  toolbarControllerManagerSelection: 1
-  toolbarControllerManagerGeneralSettingsSelection: 2
+  toolbarControllerManagerSelection: 0
+  toolbarControllerManagerGeneralSettingsSelection: 0
   toolbarControllerManagerTargetSettingsSelection: 0
-  toolbarControllerManagerAISettingsSelection: 2
+  toolbarControllerManagerAISettingsSelection: 1
   toolbarControllerManagerAbilityGroupSettingsSelection: 0
   toolbarControllerManagerWeaponSettingsSelection: 2
   toolbarAbiltyManagerSelection: 3
@@ -12913,8 +13093,8 @@ MonoBehaviour:
     refName: 
     refUpdateDateTime: 20/09/2020 19:07:07
   imageOnHealthReductionDuration: 0.3
-  maxHealth: 350
-  healthABC: 350
+  maxHealth: 90
+  healthABC: 90
   healthIntergrationType: 0
   gcHealthID: health
   healthRegenPerSecond: 0
