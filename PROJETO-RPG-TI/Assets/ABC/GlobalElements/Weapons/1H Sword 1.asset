@@ -960,7 +960,7 @@ MonoBehaviour:
     shakeCameraOnInitiationDuration: 0.5
     shakeCameraOnInitiationAmount: 0.5
     shakeCameraOnInitiationSpeed: 25
-    shakeCameraOnImpact: 1
+    shakeCameraOnImpact: 0
     shakeCameraOnImpactDelay: 0
     shakeCameraOnImpactDuration: 0.3
     shakeCameraOnImpactAmount: 1
@@ -1724,7 +1724,7 @@ MonoBehaviour:
     shakeCameraOnInitiationDuration: 0.5
     shakeCameraOnInitiationAmount: 0.5
     shakeCameraOnInitiationSpeed: 25
-    shakeCameraOnImpact: 1
+    shakeCameraOnImpact: 0
     shakeCameraOnImpactDelay: 0
     shakeCameraOnImpactDuration: 0.3
     shakeCameraOnImpactAmount: 2
@@ -2488,7 +2488,7 @@ MonoBehaviour:
     shakeCameraOnInitiationDuration: 0.5
     shakeCameraOnInitiationAmount: 0.5
     shakeCameraOnInitiationSpeed: 25
-    shakeCameraOnImpact: 1
+    shakeCameraOnImpact: 0
     shakeCameraOnImpactDelay: 0
     shakeCameraOnImpactDuration: 0.3
     shakeCameraOnImpactAmount: 1
