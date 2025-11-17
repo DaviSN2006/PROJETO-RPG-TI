@@ -76,26 +76,26 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
-{
-    if (other.CompareTag("Enemy"))
     {
-        PausePlayer();
-        ShowCharacterSelection();
-        return;
-    }
+        if (other.CompareTag("Enemy"))
+        {
+            PausePlayer();
+            ShowCharacterSelection();
+            return;
+        }
 
-    if (other.CompareTag("NPC"))
-    {
-        return;
-    }
+        if (other.CompareTag("NPC"))
+        {
+            return;
+        }
 
-    if (other.CompareTag("Chest"))
-    {
-        return;
-    }
+        if (other.CompareTag("Chest"))
+        {
+            return;
+        }
 
-    Debug.LogWarning($"Objeto colidido não possui uma tag esperada: {other.name}");
-}
+        Debug.LogWarning($"Objeto colidido não possui uma tag esperada: {other.name}");
+    }
 
 
 
@@ -105,16 +105,16 @@ public class PlayerController : MonoBehaviour
     }
 
     private void ShowCharacterSelection()
-{
-    if (characterSelectionCanvas != null)
     {
-        characterSelectionCanvas.SetActive(true); // Ativa o Canvas
-    }
-    else
-    {
+        if (characterSelectionCanvas != null)
+        {
+            characterSelectionCanvas.SetActive(true); // Ativa o Canvas
+        }
+        else
+        {
         
+        }
     }
-}
 
     public void OnCharacterSelected() // Chame este método após a seleção
     {

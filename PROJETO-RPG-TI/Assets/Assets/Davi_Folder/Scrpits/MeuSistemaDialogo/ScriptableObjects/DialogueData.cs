@@ -3,16 +3,23 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewDialogueData", menuName = "Dialogue/DialogueData")]
 public class DialogueData : ScriptableObject
 {
-    [TextArea(3, 10)]
-    public string[] dialogueLines; // Linhas de diálogo
+    [System.Serializable]
+    public struct DialogueSentence
+    {
+        public string dialoguerName;
+        public string sentence;
+    };
+
+    [SerializeField]
+    public DialogueSentence[] dialogueSentences; // Linhas de Diálogo com o Autor e sua Frase
 
     // Método para obter uma fala específica
-    public string GetDialogueLine(int index)
+    public DialogueSentence GetDialogueSentenceN(int indexN)
     {
-        if (index >= 0 && index < dialogueLines.Length)
+        if (indexN >= 0 && indexN < dialogueSentences.Length)
         {
-            return dialogueLines[index];
+            return dialogueSentences[indexN];
         }
-        return null; // Retorna null se o índice for inválido
+        return new DialogueSentence(); // Retorna null se o índice for inválido
     }
 }

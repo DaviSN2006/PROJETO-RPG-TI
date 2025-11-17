@@ -4,6 +4,7 @@ public class Chest : MonoBehaviour, IInteractable
 {
     private bool isOpen = false;
 
+    public GameObject GetGameObject() => gameObject;
     public void Interact()
     {
         if (!isOpen)
@@ -14,6 +15,16 @@ public class Chest : MonoBehaviour, IInteractable
         {
             Debug.Log("Baú já está aberto!");
         }
+    }
+
+    public void StartInteractionInput(float interactionHeldTime)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void CancelInteractionInput()
+    {
+        throw new System.NotImplementedException();
     }
 
     public string GetInteractionMessage()

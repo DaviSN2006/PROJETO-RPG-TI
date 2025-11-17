@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19294077028485b4d90b4aed02e69fac, type: 3}
-  m_Name: DialogueData
+  m_Name: DD_DanielNPC
   m_EditorClassIdentifier: 
-  dialogueLines:
-  - Ei!
-  - "Voce n\xE3o pode ficar aqui!"
+  dialogueSentences:
+  - dialoguerName: Daniel
+    sentence: "Ol\xE1, tudo bem?"

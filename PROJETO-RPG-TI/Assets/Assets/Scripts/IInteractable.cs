@@ -2,6 +2,10 @@ using UnityEngine;
 
 public interface IInteractable
 {
-void Interact(); // O que acontece ao interagir
+    GameObject GetGameObject();
+    void Interact(); // O que acontece ao interagir
+    void StartInteractionInput(float interactionHeldTime);
+    void CancelInteractionInput();
+
     string GetInteractionMessage(); // Mensagem exibida ao jogador
 }

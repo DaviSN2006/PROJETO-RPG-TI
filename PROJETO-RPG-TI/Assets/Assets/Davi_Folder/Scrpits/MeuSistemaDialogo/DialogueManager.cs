@@ -7,11 +7,17 @@ public class DialogueManager : MonoBehaviour
     public static DialogueManager Instance; // Singleton para acesso global
 
     public GameObject dialoguePanel; // Painel de diálogo
-    public TextMeshProUGUI dialogueText; // Texto do diálogo (usando TextMeshPro)
+    public TMP_Text dialoguerNameText; // Texto do nome do autor do diálogo (usando TextMeshPro)
+    public TMP_Text dialogueSentenceText; // Texto do diálogo (usando TextMeshPro)
     public Button nextButton; // Botão para avançar o diálogo
+    public Image inputHeldFeedbackImage;
 
     private DialogueData currentDialogueData;
     private int currentLineIndex = 0;
+
+    private bool inputBeingHeld = false;
+    private float inputHeldTimeMax = 1;
+    private float inputHeldTimeCurrent = 0;
 
     private void Awake()
     {
@@ -28,17 +34,25 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         // Configura o botão "Próximo" para avançar o diálogo
-        nextButton.onClick.AddListener(NextDialogueLine);
-        nextButton.gameObject.SetActive(false); // Esconde o botão no início
+        nextButton?.onClick.AddListener(NextDialogueLine);
+        dialoguePanel?.SetActive(false);
     }
 
-    public void StartDialogue(DialogueData dialogueData, QuestData questData)
+    private void Update()
+    {
+        if (inputBeingHeld)
+        {
+            inputHeldTimeCurrent += Time.deltaTime;
+            inputHeldFeedbackImage.fillAmount = inputHeldTimeCurrent / inputHeldTimeMax;
+        }
+    }
+
+    public void StartDialogue(DialogueData dialogueData, QuestData questData = null)
     {
         currentDialogueData = dialogueData;
         currentLineIndex = 0;
 
         dialoguePanel.SetActive(true);
-        nextButton.gameObject.SetActive(true); // Mostra o botão "Próximo"
 
         // Exibe a primeira fala do diálogo
         ShowCurrentLine();
@@ -52,9 +66,10 @@ public class DialogueManager : MonoBehaviour
 
     private void ShowCurrentLine()
     {
-        if (currentLineIndex < currentDialogueData.dialogueLines.Length)
+        if (currentLineIndex < currentDialogueData.dialogueSentences.Length)
         {
-            dialogueText.text = currentDialogueData.dialogueLines[currentLineIndex];
+            dialoguerNameText.text = currentDialogueData.dialogueSentences[currentLineIndex].dialoguerName + ":";
+            dialogueSentenceText.text = currentDialogueData.dialogueSentences[currentLineIndex].sentence;
         }
         else
         {
@@ -64,14 +79,21 @@ public class DialogueManager : MonoBehaviour
 
     public void NextDialogueLine()
     {
+        if (!currentDialogueData)
+        {
+            EndDialogue();
+            return;
+        }
+
         currentLineIndex++;
         ShowCurrentLine();
+
+        CancelNextDialogueInputHeld();
     }
 
     public void EndDialogue()
     {
         dialoguePanel.SetActive(false);
-        nextButton.gameObject.SetActive(false); // Esconde o botão "Próximo"
         currentDialogueData = null;
         currentLineIndex = 0;
     }
@@ -80,5 +102,18 @@ public class DialogueManager : MonoBehaviour
     public bool IsDialogueActive()
     {
         return dialoguePanel.activeInHierarchy;
+    }
+
+    public void StartNextDialogueInputHeld(float time)
+    {
+        inputBeingHeld = true;
+        inputHeldTimeMax = time;
+        inputHeldTimeCurrent = 0;
+    }
+
+    public void CancelNextDialogueInputHeld()
+    {
+        inputBeingHeld = false;
+        inputHeldFeedbackImage.fillAmount = inputHeldTimeCurrent = 0;
     }
 }
