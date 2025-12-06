@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19294077028485b4d90b4aed02e69fac, type: 3}
+  m_Name: DD_R3STNPC
+  m_EditorClassIdentifier: 
+  dialogueSentences:
+  - dialoguerName: R3ST
+    sentence: "O-o-o\u2026 humano. Verdadeiro. N-n\xE3o\u2026 proje\xE7\xE3o\u2026"
+  - dialoguerName: Bernardo
+    sentence: "Voc\xEA consegue falar direito?"
+  - dialoguerName: R3ST
+    sentence: "N-n\xE3o muito. A ilha t\xE1\u2026 quebrada demais."
+  - dialoguerName: Bernardo
+    sentence: O que aconteceu aqui?
+  - dialoguerName: R3ST
+    sentence: "D-de-bug\u2026 \xE9 o f-fim do jogo. O c\xF3digo\u2026 nunca foi conclu\xEDdo."
+  - dialoguerName: Bernardo
+    sentence: Meu pai tentou chegar aqui quando jogava.
+  - dialoguerName: R3ST
+    sentence: "S-sim. Eu vi ele. Tentou passar\u2026 muitas vezes."
+  - dialoguerName: Bernardo
+    sentence: Ele conseguiu?
+  - dialoguerName: R3ST
+    sentence: "N-n\xE3o. O jogo travava antes de atingir o n\xFAcleo. Arcadia\u2026
+      morreu antes que ele pudesse terminar."
+  - dialoguerName: R3ST
+    sentence: "M-mas voc\xEA\u2026 veio depois. O sistema espera que voc\xEA feche
+      o ciclo."
+  - dialoguerName: Bernardo
+    sentence: "Eu s\xF3 quero sair daqui."
+  - dialoguerName: R3ST
+    sentence: "Ent\xE3o precisa apagar o Kernel. A raiz da corrup\xE7\xE3o."
+  - dialoguerName: Bernardo
+    sentence: "Kernel\u2026 isso \xE9 um chef\xE3o?"
+  - dialoguerName: R3ST
+    sentence: "\xC9 o c\xF3digo que travou seu pai\u2026 e travou Arcadia."
+  - dialoguerName: Bernardo
+    sentence: "Como eu chego at\xE9 ele?"
+  - dialoguerName: R3ST
+    sentence: "Passe pelo 404. O guardi\xE3o. Ele\u2026 n-n\xE3o \xE9 amig\xE1vel."
+  - dialoguerName: Bernardo
+    sentence: "E voc\xEA?"
+  - dialoguerName: R3ST
+    sentence: "Eu fico\u2026 aqui. M-meu processo n\xE3o aguenta mais."
+  - dialoguerName: R3ST
+    sentence: "Boa sorte, humano. Termine o que outros\u2026 n-nunca conseguiram."

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19294077028485b4d90b4aed02e69fac, type: 3}
+  m_Name: DD_GL1TCHNPC
+  m_EditorClassIdentifier: 
+  dialogueSentences:
+  - dialoguerName: GL1TCH
+    sentence: "A-a-a\u2026te-en\u2026\xE7\xE3o\u2026 hum\u2026ano."
+  - dialoguerName: Bernardo
+    sentence: "Voc\xEA\u2026 t\xE1 falhando."
+  - dialoguerName: GL1TCH
+    sentence: "Fun\u2026\xE7\xE3o\u2026 p-p-programada: e-e-nsin\u2014ar\u2026 c-com-bate."
+  - dialoguerName: Bernardo
+    sentence: Ensinar?
+  - dialoguerName: GL1TCH
+    sentence: "C-c-erto. Mas n-n\xE3o se preocupe\u2026 voc\xEA n\xE3o\u2026 precisa
+      lutar agora. S\xF3\u2026 aprender."
+  - dialoguerName: GL1TCH
+    sentence: "Explica\xE7\xE3o 1: O que \xE9 combate?"
+  - dialoguerName: GL1TCH
+    sentence: "Em Arcadia\u2026 c-combate \xE9 simples: voc\xEA\u2026 a-a-taca\u2026
+      antes de ser\u2026 a-a-ta-ca-do."
+  - dialoguerName: Bernardo
+    sentence: "Parece l\xF3gico."
+  - dialoguerName: GL1TCH
+    sentence: "N-nem sempre\u2026 jogadores\u2026 antigos\u2026 esqueciam de\u2026
+      d-desviar. P\xE9ssima ideia."
+  - dialoguerName: GL1TCH
+    sentence: "Explica\xE7\xE3o 2: Movimenta\xE7\xE3o"
+  - dialoguerName: GL1TCH
+    sentence: "O jo-ga-dor\u2026 deve se\u2026 mo-ver\u2026 r-r\xE1pido."
+  - dialoguerName: Bernardo
+    sentence: "Mesmo que seja tudo autom\xE1tico?"
+  - dialoguerName: GL1TCH
+    sentence: "Sim. Movimento\u2026 \xE9 vida. Parado\u2026 \xE9 morte."
+  - dialoguerName: GL1TCH
+    sentence: "A-alguns inimigos\u2026 p-procuram\u2026 alvos im\xF3veis."
+  - dialoguerName: GL1TCH
+    sentence: "Explica\xE7\xE3o 3: Ataque"
+  - dialoguerName: GL1TCH
+    sentence: "O a-ta-que\u2026 \xE9 gerado\u2026 pelo pr\xF3prio c-c\xF3digo do
+      jogador."
+  - dialoguerName: Bernardo
+    sentence: Como assim?
+  - dialoguerName: GL1TCH
+    sentence: "O sistema cria uma arma t-tempor\xE1ria\u2026 baseada no padr\xE3o
+      do usu\xE1rio."
+  - dialoguerName: Bernardo
+    sentence: "Padr\xE3o\u2026 meu?"
+  - dialoguerName: GL1TCH
+    sentence: "S-sim. Sua energia\u2026 sua inten\xE7\xE3o\u2026 seu dedo nervoso."
+  - dialoguerName: GL1TCH
+    sentence: "Explica\xE7\xE3o 4: Defesa e esquiva"
+  - dialoguerName: GL1TCH
+    sentence: "P-para sobreviver\u2026 es-qui-ve."
+  - dialoguerName: Bernardo
+    sentence: "Mas eu n\xE3o vou lutar agora."
+  - dialoguerName: GL1TCH
+    sentence: "M-mas vai lutar\u2026 depois."
+  - dialoguerName: Bernardo
+    sentence: "N\xE3o \xE9 exatamente\u2026 animador."
+  - dialoguerName: GL1TCH
+    sentence: "N\xE3o fui p-programado para animar."
+  - dialoguerName: Bernardo
+    sentence: Ok. Entendido... Mais alguma coisa que devo saber?
+  - dialoguerName: GL1TCH
+    sentence: "N\xE3-oo. T-t-tutorial\u2026 conclu\xEDdo."
+  - dialoguerName: Bernardo
+    sentence: "\xC9 s\xF3 isso?"
+  - dialoguerName: GL1TCH
+    sentence: "Sim. Voc\xEA\u2026 sabe tudo\u2026 sem\u2026 fazer nada."
+  - dialoguerName: Bernardo
+    sentence: "Agrade\xE7o?"
+  - dialoguerName: GL1TCH
+    sentence: "Agrade-cimento\u2026 desnecess\xE1rio. Eu\u2026 s\xF3\u2026 sigo\u2026
+      fun\xE7\xE3o."
+  - dialoguerName: GL1TCH
+    sentence: "Boa\u2026 s-sor\u2026te\u2026 hu\u2026ma\u2026no\u2026"

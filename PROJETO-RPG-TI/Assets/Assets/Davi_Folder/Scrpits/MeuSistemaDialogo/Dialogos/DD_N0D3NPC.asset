@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19294077028485b4d90b4aed02e69fac, type: 3}
+  m_Name: DD_N0D3NPC
+  m_EditorClassIdentifier: 
+  dialogueSentences:
+  - dialoguerName: N0D3
+    sentence: "Carregamento conclu\xEDdo\u2026 Bem-vindo, humano."
+  - dialoguerName: Bernardo
+    sentence: "Onde... onde eu t\xF4?"
+  - dialoguerName: N0D3
+    sentence: "Voc\xEA est\xE1 dentro de Arcadia. Um jogo antigo\u2026 esquecido\u2026
+      e quebrado."
+  - dialoguerName: Bernardo
+    sentence: Arcadia? Meu pai jogava isso quando era jovem.
+  - dialoguerName: N0D3
+    sentence: "Sim. Ele passou muitas horas aqui. O sistema registrou sua presen\xE7a\u2026
+      mem\xF3rias deixadas no c\xF3digo."
+  - dialoguerName: Bernardo
+    sentence: "Mas por que eu t\xF4 aqui?"
+  - dialoguerName: N0D3
+    sentence: O console foi reativado. Quando isso acontece, Arcadia tenta completar
+      o ciclo inacabado.
+  - dialoguerName: Bernardo
+    sentence: Que ciclo?
+  - dialoguerName: N0D3
+    sentence: "O jogo travou d\xE9cadas atr\xE1s. Nada nunca terminou. Por isso voc\xEA
+      foi puxado para c\xE1."
+  - dialoguerName: N0D3
+    sentence: "Para sair deste mundo, voc\xEA precisa chegar ao fim."
+  - dialoguerName: Bernardo
+    sentence: "Ent\xE3o eu\u2026 preciso terminar o jogo?"
+  - dialoguerName: N0D3
+    sentence: "Exatamente. Mas antes, voc\xEA deve aprender como Arcadia funciona."
+  - dialoguerName: Bernardo
+    sentence: "E por onde eu come\xE7o?"
+  - dialoguerName: N0D3
+    sentence: "Por aqui, na Ilha Loop. Tudo nessa ilha tenta se repetir\u2026 mesmo
+      quando est\xE1 quebrado."
+  - dialoguerName: Bernardo
+    sentence: "Isso soa\u2026 perigoso."
+  - dialoguerName: N0D3
+    sentence: "E \xE9. Mas voc\xEA n\xE3o est\xE1 sozinho. Procure outros n\xF3s
+      do sistema. Eles podem ajudar."
+  - dialoguerName: N0D3
+    sentence: "Siga em frente. O pr\xF3ximo ponto do sistema j\xE1 detectou sua chegada."
+  - dialoguerName: Bernardo
+    sentence: "E voc\xEA?"
+  - dialoguerName: N0D3
+    sentence: "Eu continuo minha fun\xE7\xE3o. Supervis\xE3o. Observa\xE7\xE3o."

@@ -886,7 +886,7 @@ GameObject:
   - component: {fileID: 324314188}
   - component: {fileID: 324314192}
   m_Layer: 3
-  m_Name: NPC
+  m_Name: NPC_N0D3_Mentor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,8 +995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed6cdc6ffee4c34b80b639fd1179587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcName: Jonnathan
-  npcPhrase: Saia daqui
+  npcName: 
+  npcPhrase: 
   dialogueData: {fileID: 11400000, guid: bc906dfcc9d68984b91550e301d2a23e, type: 2}
 --- !u!1001 &325706083
 PrefabInstance:
@@ -3160,7 +3160,7 @@ GameObject:
   - component: {fileID: 1124499803}
   - component: {fileID: 1124499807}
   m_Layer: 3
-  m_Name: NPC
+  m_Name: 'NPC_GL1TCH_Combatente '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3251,7 +3251,7 @@ Transform:
   m_GameObject: {fileID: 1124499802}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.35, y: 93.62, z: -54.88}
+  m_LocalPosition: {x: 39.52, y: 93.62, z: -54.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3269,8 +3269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed6cdc6ffee4c34b80b639fd1179587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcName: cold
-  npcPhrase: Frio do baralho
+  npcName: 
+  npcPhrase: 
   dialogueData: {fileID: 11400000, guid: fdc637fca2009b346a2f2f59a003b3ae, type: 2}
 --- !u!1 &1142229599
 GameObject:
@@ -6012,7 +6012,7 @@ GameObject:
   - component: {fileID: 1847389077}
   - component: {fileID: 1847389081}
   m_Layer: 3
-  m_Name: NPC
+  m_Name: NPC_BYTE_Comerciante
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6103,7 +6103,7 @@ Transform:
   m_GameObject: {fileID: 1847389076}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 81.55, y: 93.62, z: -74.2}
+  m_LocalPosition: {x: 50.2, y: 93.62, z: -30.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6121,8 +6121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed6cdc6ffee4c34b80b639fd1179587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcName: Wellington
-  npcPhrase: Quase quse meia noite
+  npcName: 
+  npcPhrase: 
   dialogueData: {fileID: 11400000, guid: d0463c0d6b84515418685b374d8b5133, type: 2}
 --- !u!1001 &1931719191
 PrefabInstance:
@@ -6154,11 +6154,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1486008285843249826, guid: 800fdb79ae4bf7f4eb60b2947167c752, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 465
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 1486008285843249826, guid: 800fdb79ae4bf7f4eb60b2947167c752, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -248.5
+      value: -747.5
       objectReference: {fileID: 0}
     - target: {fileID: 1875448825025859619, guid: 800fdb79ae4bf7f4eb60b2947167c752, type: 3}
       propertyPath: m_Name
@@ -6194,7 +6194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7866243558525564097, guid: 800fdb79ae4bf7f4eb60b2947167c752, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -248.5
+      value: -332.5
       objectReference: {fileID: 0}
     - target: {fileID: 8212698528549519434, guid: 800fdb79ae4bf7f4eb60b2947167c752, type: 3}
       propertyPath: m_Pivot.x
@@ -6421,132 +6421,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949597105}
   m_Mesh: {fileID: 9221970516278625364, guid: 68eb3991475f31f43a00f4d0c54fe188, type: 3}
---- !u!1 &1971122171
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1971122175}
-  - component: {fileID: 1971122174}
-  - component: {fileID: 1971122173}
-  - component: {fileID: 1971122172}
-  - component: {fileID: 1971122176}
-  m_Layer: 3
-  m_Name: NPC
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!136 &1971122172
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971122171}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1971122173
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971122171}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 4b2bb10625913f44bb1a882f8808a52d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1971122174
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971122171}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1971122175
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971122171}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.23, y: 93.62, z: -76.67}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1971122176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971122171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bed6cdc6ffee4c34b80b639fd1179587, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcName: "Guardi\xE3o"
-  npcPhrase: "Est\xE1 um \xF3timo dia em Night City"
-  dialogueData: {fileID: 11400000, guid: 8359db0bf6aec2949a3749e103d9591a, type: 2}
 --- !u!65 &1976730833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7179,7 +7053,6 @@ SceneRoots:
   - {fileID: 324314191}
   - {fileID: 1847389080}
   - {fileID: 1124499806}
-  - {fileID: 1971122175}
   - {fileID: 649950709}
   - {fileID: 2059555690}
   - {fileID: 1065447586}
