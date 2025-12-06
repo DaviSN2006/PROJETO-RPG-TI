@@ -1566,6 +1566,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5604241a6a0eba3448f60f13cec6a926, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0841675f05c8aa5488f2e4bce0a09e81, type: 2}
     - target: {fileID: 5941879479414195808, guid: 5604241a6a0eba3448f60f13cec6a926, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -2475,6 +2479,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 687716a84995d8f44ab0dcff7d1af70b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1678644648}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 687716a84995d8f44ab0dcff7d1af70b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1678644653}
   m_SourcePrefab: {fileID: 100100000, guid: 687716a84995d8f44ab0dcff7d1af70b, type: 3}
 --- !u!1 &843612632 stripped
 GameObject:
@@ -5003,6 +5010,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c5e26ee2cbb6fef479755a2446db3c3d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0841675f05c8aa5488f2e4bce0a09e81, type: 2}
     - target: {fileID: 5941879479414195808, guid: c5e26ee2cbb6fef479755a2446db3c3d, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -5257,6 +5268,28 @@ MonoBehaviour:
   rotationSpeed: 700
   characterSelectionCanvas: {fileID: 624185714236627760, guid: 6fdbe967067d5f043b95bc3edbc90fdd, type: 3}
   arenaSceneName: Arena1
+--- !u!95 &1678644653
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678644641}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 687716a84995d8f44ab0dcff7d1af70b, type: 3}
+  m_Controller: {fileID: 9100000, guid: 5a442866104f16247bb345f269936e18, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!65 &1753760847
 BoxCollider:
   m_ObjectHideFlags: 0
