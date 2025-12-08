@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private Animator animator;
     public float moveSpeed = 5f; // Velocidade de movimento
     public float gravity = -9.81f; // Força gravitacional
     public float rotationSpeed = 700f; // Velocidade da rotação
@@ -26,6 +27,10 @@ public class PlayerController : MonoBehaviour
         {
             Debug.LogError("O CharacterController não está anexado ao Player!");
         }
+    }
+    void Start()
+    {
+        animator = GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -52,6 +57,7 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 move = new Vector3(moveInput.x, 0f, moveInput.y);
         controller.Move(move * moveSpeed * Time.deltaTime);
+        animator.SetBool("isWalking", move != Vector3.zero);
     }
 
     private void ApplyGravity()
