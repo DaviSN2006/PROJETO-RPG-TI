@@ -10,6 +10,7 @@ public class MenuZoom : MonoBehaviour
     public GameObject menuReal; // painel do menu com os botões
     public AudioSource audioSource; // arraste o componente AudioSource aqui
     public AudioClip zoomSound; // arraste o áudio desejado aqui
+    public AudioSource musicaMenu;
 
     public void StartZoom()
     {
@@ -41,5 +42,6 @@ public class MenuZoom : MonoBehaviour
         }
 
         menuReal.SetActive(true);
+        musicaMenu.Play();
     }
 }

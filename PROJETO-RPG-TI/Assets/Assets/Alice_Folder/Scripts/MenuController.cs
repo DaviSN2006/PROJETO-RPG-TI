@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -5,6 +6,7 @@ using UnityEngine.UI;
 public class MenuController : MonoBehaviour
 {
     public GameObject menuReal2;    // Referência para o segundo menu
+    public GameObject loadingPanel;
     public AudioSource musicaDeFundo; // Referência para o componente AudioSource
 
     // Método que começa o segundo menu
@@ -17,7 +19,7 @@ public class MenuController : MonoBehaviour
     // Método para iniciar o jogo (carregar uma cena)
     public void Jogar()
     {
-        SceneManager.LoadScene("IlhaLoop");  // Substitua pelo nome da sua cena de jogo
+        StartCoroutine(LoadSceneAsync());
     }
 
     // Método para sair do jogo
@@ -30,5 +32,19 @@ public class MenuController : MonoBehaviour
     public void StopMusica()
     {
         musicaDeFundo.Stop();        // Para a música quando sair do menu
+    }
+
+    IEnumerator LoadSceneAsync()
+    {
+        loadingPanel.SetActive(true);
+        Debug.Log("LoadingPanel");
+        yield return new WaitForFixedUpdate();
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("IlhaLoop"); // Substitua pelo nome da sua cena de jogo
+        while (!asyncLoad.isDone)
+        {
+            Debug.Log("AsyncLoadCall");
+            yield return null;
+        }
     }
 }

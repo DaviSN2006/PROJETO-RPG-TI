@@ -15,14 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/IlhaDebug.unity
     guid: 9d3718be9894cdf47a5c7cfd4b432cd2
   - enabled: 1
-    path: Assets/Scenes/Fase/Fase1.unity
-    guid: b0185b8b62da4e84aa4764e746e86d78
+    path: Assets/Scenes/Fase/Fase1 1.unity
+    guid: 6431ad8f6d3b7864cb2971b9a483d006
   - enabled: 1
     path: Assets/Scenes/Fase/Fase2.unity
     guid: c6e51adf20b05a2469fce6bae3af318e
-  - enabled: 1
-    path: Assets/Scenes/Fase/Fase3.unity
-    guid: 2258317d122160c4a9cebd76304b30af
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -12,8 +12,6 @@ public class Menu : MonoBehaviour
 
     Animator animator;
     [SerializeField] private string LevelJogo;
-    [SerializeField] private GameObject painelMenuIcinial;
-    [SerializeField] private GameObject painelOpções;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -22,13 +20,13 @@ public class Menu : MonoBehaviour
     {
         Invoke("LoadScene", 2f);
     }
-    public void AbrirOpções()
+    public void AbrirPainel(GameObject painel)
     {
-        painelOpções.SetActive(true);
+        painel.SetActive(true);
     }
-    public void FecharOpções()
+    public void FecharPainel(GameObject painel)
     {
-        painelOpções.SetActive(false);
+        painel.SetActive(false);
     }
     private void LoadScene()
     {

@@ -4,7 +4,9 @@ public class PlayerController : MonoBehaviour
 {
     private Animator animator;
     public float moveSpeed = 5f; // Velocidade de movimento
+    public bool enableMovement = true;
     public float gravity = -9.81f; // Força gravitacional
+    public bool enableGravity = true;
     public float rotationSpeed = 700f; // Velocidade da rotação
     private Vector2 moveInput; // Entrada de movimento
     private Vector3 velocity; // Armazena a velocidade vertical para gravidade
@@ -47,8 +49,10 @@ public class PlayerController : MonoBehaviour
     {
         if (!isPaused)
         {
-            Move();
-            ApplyGravity();
+            if (enableMovement)
+                Move();
+            if (enableGravity)
+                ApplyGravity();
             RotateCharacter();
         }
     }
@@ -89,7 +93,7 @@ public class PlayerController : MonoBehaviour
             ShowCharacterSelection();
             return;
         }
-
+        /*
         if (other.CompareTag("NPC"))
         {
             return;
@@ -99,7 +103,7 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-
+        */
         Debug.LogWarning($"Objeto colidido não possui uma tag esperada: {other.name}");
     }
 
