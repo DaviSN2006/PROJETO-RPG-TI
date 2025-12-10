@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "ABC_InputActions",
     "maps": [
         {
@@ -343,6 +344,15 @@
                     "type": "Button",
                     "id": "fc6ee4fe-1ff0-4986-ba26-166eda79b57d",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PauseMenu",
+                    "type": "Button",
+                    "id": "b5366dd8-cf2c-42a2-9fd2-cd77b904f676",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -1743,6 +1753,17 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4178bc3c-1400-4144-a4fd-b561e8fbeff0",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "PauseMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

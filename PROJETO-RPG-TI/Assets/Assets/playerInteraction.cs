@@ -19,7 +19,7 @@ public class PlayerInteraction : MonoBehaviour
         inputActions.Player.Interact.started += _ => StartInteractionInput();
         inputActions.Player.Interact.canceled += _ => CancelInteractionInput();
 
-        inputActions.Player.Interact.performed += _ =>
+        inputActions.Player.Interact.started += _ =>
         {
             Debug.Log("Botão de interação pressionado.");
             HandleInteraction();
